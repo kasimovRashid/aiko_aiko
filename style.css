@@ -1,0 +1,65 @@
+:root {
+  --grey: #E2EDE5;
+  --green: #5F9EA0;
+  --orange: #FCB869;
+  --purple: #DEE2FA;
+  --blue: #70BDF2;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  width: 1440px;
+  
+  
+}
+/* 1 */
+.contacts {
+  display: flex;
+  background: var(--green);
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+}
+.geo__town {
+  font-size: 14px;
+}
+.contacts__date, .contacts__time {
+  font-size: 10px;
+}
+.contacts__phone-link {
+  font-size: 16px;
+  color: #fff;
+}
+.contacts__list {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.contacts__item a {
+  margin-left: 30px;
+  color: #fff;
+}
+/* 2 */
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu__logo {
+  height: 54px;
+  width: 54px;
+  background: #C4C4C4;
+  border-radius: 50%;
+}
+.menu__list {
+  display: flex;
+}
+.menu__item {
+  margin-right: 40px;
+}
