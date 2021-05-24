@@ -4,6 +4,10 @@
   --orange: #FCB869;
   --purple: #DEE2FA;
   --blue: #70BDF2;
+  --titlesFont: 'Bellota Text', cursive;
+}
+body {
+  font-family: var(--titlesFont);
 }
 ul {
   list-style-type: none;
@@ -21,15 +25,20 @@ img {
   margin: 0 auto;
   
 } */
-.container__1360 {
-  width: 1360px;
+.header {
+  background: var(--green);
+}
+.container {
+  width: 1220px;
   margin: 0 auto;
 }
+
 /* 1 */
 .contacts {
   display: flex;
   background: var(--green);
-  justify-content: space-around;
+  
+  justify-content: space-between;
   align-items: center;
   color: #fff;
 }
@@ -53,10 +62,11 @@ img {
   color: #fff;
 }
 /* 2 */
-.menu {
+.menu__container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  
 }
 .menu__logo {
   height: 54px;
@@ -79,7 +89,8 @@ img {
 
 /* about */
 .about {
-  /* display: flex; */
+  display: flex;
+  justify-content: space-between;
  
   
 }
@@ -110,6 +121,8 @@ img {
 }
 .about__center {
   position: absolute;
+  top: 170px;
+  left: 393px;
 }
 .picture {
   width: 707px;
@@ -120,3 +133,19 @@ img {
   height: 100%;
   object-fit: cover;
 }
+.title__center {
+  background: var(--blue);
+  color: white;
+}
+
+/* desc */
+.desc__list {
+  display: flex;
+  justify-content: center;
+  
+}
+.desc__item {
+  width: 260px;
+  text-align: center;
+}
+/* bestseller */
