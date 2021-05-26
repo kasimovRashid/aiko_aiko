@@ -149,3 +149,31 @@ img {
   text-align: center;
 }
 /* bestseller */
+.title {
+  text-align: center;
+}
+.bestseller {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+ 
+}
+.preview__bottom {
+  text-align: center;
+}
+.preview__top-new--visible {
+  visibility: hidden;
+}
+
+/* category */
+.category {
+  position: relative;
+  overflow: hidden;
+}
+.sub-category {
+  background-image: url("01.png");
+  width: 632px;
+  height: 300px;
+  background-size: cover;
+  
+}
